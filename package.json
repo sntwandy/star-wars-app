@@ -4,7 +4,8 @@
   "description": "It's an app about star wars, using swapi.dev API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
