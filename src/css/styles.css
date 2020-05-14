@@ -1,0 +1,166 @@
+/* BASICS CONFIGURE */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+figure {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* HEADER CONFIGURE */
+.header {
+    width: 100vw;
+    height: 90px;
+    background-color: #333;
+    color: #FFE300;
+}
+
+.header a {
+    color: #FFE300
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    justify-content: space-between;
+}
+
+.header-title-home {
+    margin: 0px 20px;
+    height: 90px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.header-title-home a {
+    display: flex;
+    align-items: center;
+    height: 90px;
+}
+
+.header-ul {
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-ul li {
+    height: 90px;
+    margin: 0px 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header-ul li a {
+    display: flex;
+    align-items: center;
+    height: 90px;
+}
+
+/* MAIN CONFIGURE */
+.main-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+}
+
+.main-image figure {
+    width: 600px;
+}
+
+.main-image img {
+    width: 100%;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-content {
+    width: 90%;
+    margin: auto;
+}
+
+.main-content-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content-image figure {
+    width: 735px;
+}
+
+.main-content-image img {
+    width: 100%;
+}
+
+/* FOOTER CONFIGURE */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 90px;
+    background-color: #333;
+    color: #FFE300;
+}
+
+.footer a {
+    color: #FFE300;
+}
+.footer-barra {
+    margin: 0px 20px;
+}
+
+.footer-sntwandy-twitter-link a {
+    display: flex;
+    align-items: center;
+}
+
+.footer-sntwandy-twitter-link span {
+    margin: 0px 5px;
+}
+
+.footer-sntwandy-twitter-link span:nth-of-type(2) {
+    font-weight: 800;
+}
+
+.footer-sntwandy-website-link span:nth-of-type(2) {
+    font-weight: 800;
+}
+
+.footer-sntwandy-twitter-link figure {
+    width: 25px;
+}
+
+.footer-sntwandy-twitter-link img {
+    width: 100%;
+}
