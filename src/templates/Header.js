@@ -10,16 +10,16 @@ const Header = () => {
             </div>
             <ul class="header-ul">
                 <li>
-                    <a href="/about">About</a>
+                    <a href="#/about">About</a>
                 </li>
                 <li>
                     <a href="https://swapi.dev/" target="_blank">API</a>
                 </li>
                 <li>
-                    <a href="/characters">Characters</a>
+                    <a href="#/characters">Characters</a>
                 </li>
                 <li>
-                    <a href="/worlds">Worlds</a>
+                    <a href="#/planets">Planets</a>
                 </li>
             </ul>
         </nav>
