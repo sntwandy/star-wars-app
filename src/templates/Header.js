@@ -2,14 +2,18 @@ const Header = () => {
     const view = `
         <nav class="header-nav">
             <div class="header-title-home">
-                <a href="/">Star Wars | App</a>
+                <a href="/">
+                    <figure>
+                        <img src="https://i.imgur.com/1jkkNOI.png" alt="" />
+                    </figure>
+                </a>
             </div>
             <ul class="header-ul">
                 <li>
                     <a href="/about">About</a>
                 </li>
                 <li>
-                    <a href="">API</a>
+                    <a href="https://swapi.dev/" target="_blank">API</a>
                 </li>
                 <li>
                     <a href="/characters">Characters</a>

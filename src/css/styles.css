@@ -7,6 +7,8 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #1f1f1f;
+    color: #FFE300;
 }
 
 li {
@@ -15,7 +17,7 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #FFE300;
 }
 
 figure {
@@ -27,10 +29,10 @@ figure {
 .header {
     width: 100vw;
     height: 90px;
-    background-color: #333;
+    background-color: #1f1f1f;
     color: #FFE300;
 }
-
+header-title-home-anim
 .header a {
     color: #FFE300
 }
@@ -45,8 +47,29 @@ figure {
 .header-title-home {
     margin: 0px 20px;
     height: 90px;
-    font-size: 25px;
-    font-weight: 900;
+}
+
+.header-title-home:hover {
+    animation-name: header-title-home-anim;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes header-title-home-anim {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.header-title-home figure {
+    width: 100px;
+}
+
+.header-title-home img {
+    width: 100%;
 }
 
 .header-title-home a {
@@ -76,50 +99,13 @@ figure {
 }
 
 /* MAIN CONFIGURE */
-.main-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #333;
-}
-
-.main-image figure {
-    width: 600px;
-}
-
-.main-image img {
-    width: 100%;
-}
-
 .main-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.main-content-image-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.main-content {
-    width: 90%;
-    margin: auto;
-}
-
-.main-content-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.main-content-image figure {
-    width: 735px;
-}
-
-.main-content-image img {
-    width: 100%;
+    width: 100vw;
+    height: 800px;
+    background-image: url("https://i.imgur.com/vpzRzNP.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* FOOTER CONFIGURE */
@@ -129,7 +115,7 @@ figure {
     justify-content: center;
     width: 100vw;
     height: 90px;
-    background-color: #333;
+    background-color: #000000;
     color: #FFE300;
 }
 
