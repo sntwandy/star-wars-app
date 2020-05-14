@@ -30,7 +30,7 @@ const router = async () => {
 
     main.innerHTML = await render();
 
-    if (render == Error404 || render == About){
+    if (render == Error404){
         footer.classList.add('footer-error');
     } else {
         footer.classList.remove('footer-error');
